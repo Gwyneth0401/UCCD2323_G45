@@ -6,7 +6,7 @@ let showFavourites = false;
 // Load recipe from JSON
 async function loadRecipes() {
     try {
-        const response = await fetch('../data/recipe.json');
+        const response = await fetch('./data/recipe.json');
         recipes = await response.json();
         displayRecipes = [...recipes];
         renderRecipes(displayRecipes);
