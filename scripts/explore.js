@@ -29,6 +29,9 @@ function renderFoodCardByCuisine(cuisine, containerSelector, state = "all") {
           </div>
           <div class="card-content">
             <h3 class="card-title">${food.name}</h3>
+            <h6>Location:</h6>
+            <p class="card-text">${food.location}</p>
+            <h6>Description:</h6>
             <p class="card-text">${food.description}</p>
             <div class="card-footer">
               <div class="product-rating-container">
