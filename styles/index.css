@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background: url("/images/banner.png") center / cover no-repeat;
+    background: url("../images/banner.png") center / cover no-repeat;
 }
 
 header {
@@ -70,13 +70,13 @@ header {
 }
 
 .login .form-details {
-    background: url("/images/login.jpg");
+    background: url("../images/login.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .signup .form-details {
-    background: url("/images/signup.jpg");
+    background: url("../images/signup.jpg");
     background-size: cover;
     background-position: center;
 }
